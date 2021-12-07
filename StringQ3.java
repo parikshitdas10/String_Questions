@@ -26,7 +26,7 @@ public class StringQ3 {
         for (i = 0; i < l; i++) {
             // if the ith element is already counted then no need to count again
             // this somewhat helps the time complexity
-            // 'By running anothet loop', ironic, I know..
+            // 'By running another loop', ironic, I know..
             if (alreadyExists(sb.charAt(i), str)) {
                 continue;
             } else {
